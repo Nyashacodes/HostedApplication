@@ -4,7 +4,7 @@ import Cookies from 'universal-cookie';
 const cookies = new Cookies()
 
 export const Auth=(props)=>{
-    const {setIsAuth} = props;
+    const {setIsAuth} = props; //destruct
 
     const signInWithGoogle = async () =>{
         try{
